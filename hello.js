@@ -10,11 +10,11 @@ function checkPalindrome(str) {
   else return false;
 }
 
-A = process.argv;
-//print(A)
+const A = process.argv;
+//print(A)A.slice(2,)
 
 result = checkPalindrome(A.slice(2).join(" "));
-if (result == true) {
+if (result) {
   print("palin");
   // console.log("The given string is Palindrome");
 } else {
